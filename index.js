@@ -8,6 +8,7 @@ ReactDOM.render(
   <div>
     <DumbComponent />
     <DumberComponent handleClick={undefined} />
+    {/* <DumberComponent handleClick={this.props.dumberer} /> */}
   </div>,
   document.getElementById('main')
 );
